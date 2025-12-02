@@ -18,7 +18,7 @@ Work experience
 ======
 * Fall 2024: Research Assistant
   * University of Utah
-  * Duties included: Merging pull requests
+  * Duties included: Multibody Simulation
   * Supervisor: Prof. Yin Yang
 
 Publications

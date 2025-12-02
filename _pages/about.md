@@ -12,7 +12,7 @@ My research interests are physics based animation, robotics and computing mechan
 
 Before my PhD studies, I received my bachelor's degree from Department of Mechanics at [Zhejiang University](https://www.zju.edu.cn/).
 
-Here is my [CV](https://github.com/MINSUGLLY/MINSUGLLY.github.io/blob/master/files/cv_zyhe.pdf).
+Here is my [CV](https://minsuglly.github.io/files/cv_zyhe.pdf).
 
 Publications
 ==============================

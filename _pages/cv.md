@@ -20,7 +20,6 @@ Work experience
   * University of Utah
   * Duties included: Merging pull requests
   * Supervisor: Prof. Yin Yang
-  
 
 Publications
 ======

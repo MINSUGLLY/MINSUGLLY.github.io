@@ -20,7 +20,8 @@
       "authors": "Zhiyong He, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang",
       "venue": "ACM TOG (SIGGRAPH 2026), Los Angeles, USA",
       "links": [
-        { "icon": "Paper", "label": "Paper", "url": "https://arxiv.org/abs/2603.08079" }
+        { "icon": "Paper", "label": "Paper", "url": "https://arxiv.org/abs/2603.08079" },
+        { "icon": "Page", "label": "Page", "url": "https://minsuglly.github.io/mabd/" }
       ]
     },
     {

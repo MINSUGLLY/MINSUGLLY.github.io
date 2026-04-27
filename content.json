@@ -18,7 +18,10 @@
     {
       "title": "M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics.",
       "authors": "Zhiyong He, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang",
-      "venue": "ACM TOG (SIGGRAPH 2026), Los Angeles, USA"
+      "venue": "ACM TOG (SIGGRAPH 2026), Los Angeles, USA",
+      "links": [
+        { "icon": "Paper", "label": "Paper", "url": "https://arxiv.org/abs/2603.08079" }
+      ]
     },
     {
       "title": "JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature.",

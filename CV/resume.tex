@@ -1,0 +1,144 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{fontawesome5} % Include fontawesome5 here
+\usepackage{enumitem}
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{#1}}%
+     \item[]
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{-0.5#1}}%
+\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+#1 &
+#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+	{\LARGE \textbf{Zhiyong He}}\\
+	Salt Lake City, UT
+	\vspace{0.05cm}
+	\\
+	\raisebox{-0.2\height} {\Large \faPhoneSquare} \ \  +1(385)439-2120 \hfill\raisebox{-0.2\height}{\Large \faEnvelopeSquare} \ \ zhiyong.he@utah.edu \hfill \raisebox{-0.2\height}{\Large \faGithubSquare} \ \ minsuglly.github.io \hfill
+\end{center}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Education}
+
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+	\item
+	      \headerrow
+	      {\textbf{University of Utah}}
+	      {\textbf{Salt Lake City, UT}}
+	      \headerrow
+	      {\emph{Ph.D. Computer Graphics, advised by Prof. Yin Yang}}
+	      {\emph{August 2025 -- 2030 (expected)}}
+	\item
+	      \headerrow
+	      {\textbf{Zhejiang University}}
+	      {\textbf{Hangzhou, China}}
+	      \headerrow
+	      {\emph{B.S. Mechanics} (\textbf{GPA:} 3.83/4.00)}
+	      {\emph{August 2021 -- June 2025}}
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Experience}
+
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.3em
+
+	\item
+	      \headerrow
+	      {\textbf{TikTok}}
+	      {\textbf{San Jose, CA}}
+	      \headerrow
+	      {\emph{Research Scientist Intern, Engine and Tools (3D Graphics)}}
+	      {\emph{May 2026 -- August 2026 (Incoming)}}
+
+	\item
+	      \headerrow
+	      {\textbf{Zhejiang University}}
+	      {\textbf{Hangzhou, China}}
+	      \headerrow
+	      {\emph{Research Assistant, advised by Prof. Shiyin Xiong}}
+	      {\emph{May 2025 -- July 2025}}
+
+	\item
+	      \headerrow
+	      {\textbf{University of Utah}}
+	      {\textbf{Salt Lake City, UT}}
+	      \headerrow
+	      {\emph{Research Assistant, advised by Prof. Yin Yang}}
+	      {\emph{July 2024 -- February 2025}}
+
+	\item
+	      \headerrow
+	      {\textbf{Zhejiang University}}
+	      {\textbf{Hangzhou, China}}
+	      \headerrow
+	      {\emph{Research Assistant, advised by Prof. Rong Xiong}}
+	      {\emph{October 2023 -- April 2024}}
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Publications}
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.3em
+	\item
+	      {\textbf{M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics}}\\
+	      \underline{Zhiyong He}, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang.\\
+	      \emph{ACM TOG (SIGGRAPH 2026)}
+	\item
+	      {\textbf{JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature}}\\
+	      Dewen Guo, Zixuan Lu, \underline{Zhiyong He}, Yuqi Meng, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang.\\
+	      \emph{ACM TOG (SIGGRAPH 2026)}
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Skills}
+
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em,noitemsep]
+	\item \textbf{Languages:} C/C++, CUDA, Python, MATLAB
+	\item \textbf{Software:} Houdini, SolidWorks, Abaqus
+\end{itemize}
+
+\end{document}

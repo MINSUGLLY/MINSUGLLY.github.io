@@ -1,0 +1,50 @@
+{
+  "name": "Zhiyong He(何智勇)",
+  "name_en": "Zhiyong He",
+  "highlightAuthor": "Zhiyong He",
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Publications", "href": "#publications" }
+  ],
+  "photo": "/images/profile.jpg",
+  "cv": "/CV/resume.pdf",
+  "about": [
+    "I am a PhD student at <a href=\"https://www.utah.edu/\">University of Utah</a> in Computer Graphics since Fall 2025, advised by professor <a href=\"https://yangzzzy.github.io/\">Yin Yang</a>.",
+    "I work on physics-based animation and neural physics. I am also interested in robotics and computational mechanics.",
+    "Before my PhD studies, I received my bachelor's degree from Department of Mechanics at <a href=\"https://www.zju.edu.cn/\">Zhejiang University</a>."
+  ],
+  "publications": [
+    {
+      "title": "M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics.",
+      "authors": "Zhiyong He, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang",
+      "venue": "ACM TOG (SIGGRAPH 2026), Los Angeles, USA"
+    },
+    {
+      "title": "JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature.",
+      "authors": "Dewen Guo, Zixuan Lu, Zhiyong He, Yuqi Meng, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang",
+      "venue": "ACM TOG (SIGGRAPH 2026), Los Angeles, USA"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Research Scientist Intern (Incoming)",
+      "org": "TikTok",
+      "team": "Engine and Tools, 3D Graphics",
+      "location": "San Jose, CA",
+      "duration": "May 2026 – Aug 2026"
+    },
+    {
+      "role": "Research Assistant",
+      "org": "University of Utah",
+      "team": "advised by Prof. Yin Yang",
+      "location": "Salt Lake City, UT",
+      "duration": "Jul 2024 – Feb 2025"
+    }
+  ],
+  "links": [
+    { "icon": "github", "label": "GitHub", "url": "https://github.com/MINSUGLLY" },
+    { "icon": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/zhiyong-he-7043b1330/" },
+    { "icon": "email", "label": "Email", "url": "mailto:minuaglly@gmail.com" }
+  ]
+}
